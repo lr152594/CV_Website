@@ -2,69 +2,192 @@
 /* CSS Document */
 
 /*----- GENERAL PURPOSE -----*/
-html, body{
+html, body{/*
 	min-height: 100vh;
+    min-width:  100vw;*/
+    width: 100%;
+    height: 100%;
 }
 
-.bg-color{
+.bg-color{/*
 	min-height: 100vh;
-	width : 100%;
-	margin: 0px;
+    min-width:  100vw;*/
+    width: 100%;
+    height: 100%;
+	margin: 0;
+    padding:0;
 	background-image:url(../img/bg_color.jpg);
+    background-repeat: repeat;
 	z-index: 1;
 }
 
-.bg-pattern{
+.bg-pattern{/*
 	min-height: 100vh;
-	width : 100%;
-	margin: 0px;
-	background-image:url(../img/bg_pattern_3.png);
-	background-attachment: fixed;
+    min-width:  100vw;*/
+    width: 100%;
+    height: 100%;
+	margin: 0;
+    padding:0;
+	background-image:url(../img/bg_pattern_4_w.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
 	z-index: 2;
 }
 
 /*----- MAIN -----*/
-.main{
+.main{/*
 	min-height: 100%;
-	max-height: 100%;
-	width: 100%;
-	vertical-align: middle;	
+	max-height: 100%;*/
+    width: 100%;
+    height: 100%;/*
+    height: 100vh;
+	width: 100vw;*/
+    margin: 0;
+    padding:0;
+    text-align: center;
 }
-.main p{	
-	text-align:center;
-}
-.main-col{
-	vertical-align: middle;
-}
-.PI_hexa{
-	width  : 400px; 	
-	height : auto;
-	vertical-align:middle;	
+.main-col{/*
+    margin:0;
+    padding:0;*/
+    width:100%;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
 }
 
-.PI_hexa:hover{	
-	filter  : contrast(110%) brightness(90%);
+.row .PI_hexa{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.PI_hexa img{
+	width  : 275px;
+	height : auto;
+	vertical-align:middle;
+}
+.PI_hexa img:hover{	/*
+	filter  : contrast(110%) brightness(90%);*/
 	cursor: pointer;
 }
-.main-txt{
-	font-family: 'Oswald', sans-serif;
-	font-size :  35px;
-	color :      white;
+
+.name{/*
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Just Me Again Down Here', cursive;*/
+    font-family: 'Kavivanar', cursive;
+    font-weight: 900;
+	font-size :  50px;
+	color :      black;
 	text-align : center;	
-	margin-top:30px;
+	margin: 20px 0;
+    width: 100%;
+    padding: 0;
 }
-.main-txt p{
-	background-color: rgba(0,0,0,0.8);
+
+.name p{
+    margin: 0;
 }
-.main-link{
-	/*margin:     46px 0px 0px 0px;*/
+.main-txt p{/*
+	background-color: rgba(0,0,0,0.8);*/
+}
+.job{
+    margin : 20px 0;
+    text-align: center;
+    /*background-color: rgba(0,0,0,0.6);*/
+}
+.job p{
+    font-family: 'Oswald', sans-serif;
+    font-size :  20px;
+    color: black;
+    margin : 0;
+}
+.main-social-icon{
+    width: 100%;
+    margin: 20px 0;
+}
+.main-social-icon i{
+    color: rgb(80,80,80);
+    margin: 0 10px;
+}
+.main-social-icon i:hover{
+    color: black;
+    font-weight: bold;
+}
+
+.main-message{
+	/*margin: 46px 0px 0px 0px;*/
 	vertical-align: bottom;
 	text-align: center; 
 	color:      white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
-.main-col-left p{
-	vertical-align: middle;
+.main-message h6{
+    font-size: 10px;
+    margin-bottom: 0;
 }
-.main-col-right p{
-	vertical-align: middle;
+
+/* ---------- RESPONSIVE STYLE ---------- */
+
+/* ----- PHONES => USE IT AS DEFAULT-----*/
+@media (max-width: 767px) {
+    /* ---------- Cacher TOP BAR ----------- */
+    .PI_hexa img{
+        width  : 150px;
+        height : auto;
+    }
+
+    .name {
+        font-size :  30px;
+        margin : 10px 0;
+    }
+    .job{
+        margin : 10px 0;
+    }
+    .job p{
+        font-family: 'Oswald', sans-serif;
+        font-size :  15px;
+        color: black;
+        margin : 0;
+    }
+    .main-social-icon{
+        margin: 10px 0;
+    }
+    .main-social-icon i{
+        color: black;
+        margin: 0 5px;
+        font-size: 1.5em;
+    }
 }
+
+/* ----- TABLETS ----- */
+@media (min-width: 768px)and (max-width: 991px) {
+    /* ---------- Cacher TOP BAR ----------- */
+    .PI_hexa img{
+        width  : 250px;
+        height : auto;
+    }
+}
+
+/* ----- DESKTOPS ----- */
+@media (min-width: 992px)and (max-width: 1199px)  {
+    /* ---------- Cacher TOP BAR ----------- */
+    .PI_hexa img{
+        width  : 275px;
+        height : auto;
+    }
+}
+/* ----- LARGE DESKTOP : DEFAULT -----
+@media (min-width: 1200px) {
+
+    .PI_hexa img{
+        width  : 200px;
+        height : auto;
+    }*/
+
+}
+
+
