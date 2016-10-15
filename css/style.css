@@ -6,21 +6,21 @@ html, body{
 }
 
 .container{
-    width:100%;
+    width:   100%;
     padding: 0;
 }
 
 .bg-color{
     width:  100%;
     margin: 0;
-	background-image:url(../img/bg_color.jpg);
+	background-image:  url(../img/bg_color.jpg);
     background-repeat: repeat;
 	z-index: 1;
 }
 .bg-pattern{
     width:  100%;
     margin: 0;
-	background-image:url(../img/bg_pattern_4_w.png);
+	background-image:  url(../img/bg_pattern_4_w.png);
     background-repeat: repeat;
     background-attachment: fixed;
 	z-index: 2;
@@ -29,7 +29,7 @@ html, body{
 /*----- MAIN -----*/
 .main{
     height: 100vh;
-	width: 100vw;
+	width:  100%;
     margin: 0;
     text-align: center;
 }
@@ -43,12 +43,12 @@ html, body{
     text-align: center;
 }
 .PI_hexa img{
-    width  : 275px;
-    height : auto;
+    width:  275px;
+    height: auto;
     vertical-align: middle;
 }
 .PI_hexa img:hover{
-    filter  : contrast(110%) brightness(90%);
+    filter: contrast(110%) brightness(90%);
     cursor: pointer;
 }
 
@@ -57,33 +57,94 @@ html, body{
     font-family: 'Just Me Again Down Here', cursive;*/
     font-family: 'Kavivanar', cursive;
     font-weight: 900;
-    font-size :  50px;
-    color :      black;
-    text-align : center;
+    font-size:   50px;
+    color:       black;
+    text-align:  center;
 
 }
 .job{
     font-family: 'Oswald', sans-serif;
     font-size :  20px;
-    color: black;
-    text-align: center;
+    color:       black;
+    text-align:  center;
 }
 
 .main-social-icon{
     margin-bottom: 10px;
 }
 .main-social-icon i{
-    color: rgb(80,80,80);
+    color:  rgb(80,80,80);
     margin: 0 10px;
 }
 .main-social-icon i:hover{
-    color: black;
+    color:       black;
     font-weight: bold;
 }
 
 .main-message h6{
-    font-size: 10px;
-    color: white;
+    font-size:      10px;
+    color:          white;
     vertical-align: bottom;
-    text-align: center;
+    text-align:     center;
+}
+
+/*---------- CONTENU ----------*/
+.content{
+    width:   100%;
+    padding: 0;
+    margin:  0;/*
+    background-color : rgba(255, 255, 255, 0.1);*/
+    display: none;
+}
+.framework{
+    font-family: 'Lato', sans-serif;
+    font-size:   15px;
+    background-color: rgba(255,255,255,0.35);
+    color: black;
+    width: 100%;
+    padding: 10px 0 20px 0;
+    margin : 0 0 100px 0;
+}
+.title{
+    font-family: 'Signika', sans-serif;
+    font-size :  40px;
+    font-weight: normal;
+    color: black;/*
+    background-color : rgba(0, 0, 0, 1);*/
+    text-align: center;/*
+    text-transform: uppercase;*/
+}
+
+/*----- A PROPOS -----*/
+.about-me-txt{
+    border-left: 1px solid #000;
+}
+
+/*----- FORMATION -----*/
+.formation{
+    margin-bottom: 30px;
+}
+.formation-name p{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.formation-school p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.formation-date p{
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.formation-spec p{
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.formation-subject{
+    font-size: 15px;
+    font-weight: normal;
 }
