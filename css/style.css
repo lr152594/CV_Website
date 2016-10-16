@@ -115,6 +115,16 @@ html, body{
     text-transform: uppercase;*/
 }
 
+.subtitle{
+    font-family: 'Signika', sans-serif;
+    font-size :  25px;
+    font-weight: normal;
+    color: black;/*
+    background-color : rgba(0, 0, 0, 1);*/
+    text-align: center;/*
+    text-transform: uppercase;*/
+}
+
 /*----- A PROPOS -----*/
 .about-me-txt{
     border-left: 1px solid #000;
@@ -147,4 +157,29 @@ html, body{
 .formation-subject{
     font-size: 15px;
     font-weight: normal;
+}
+
+/*----- XP-----*/
+.XP{
+    margin-bottom: 30px;
+}
+.XP-job p{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.XP-firm p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.XP-date p{
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.XP-mission p{
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0;
 }
