@@ -134,20 +134,36 @@ html, body{
 .formation{
     margin-bottom: 30px;
 }
+.formation-name{
+    margin:0;
+    padding-left: 15px;
+}
 .formation-name p{
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 0;
+}
+.formation-school{
+    margin:0;
+    padding-left: 15px;
 }
 .formation-school p{
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 0;
 }
+.formation-date{
+    margin:0;
+    padding-left: 15px;
+}
 .formation-date p{
     font-size: 12px;
     font-weight: normal;
     margin-bottom: 0;
+}
+.formation-spec{
+    margin:0;
+    padding-left: 15px;
 }
 .formation-spec p{
     font-size: 12px;
@@ -155,31 +171,87 @@ html, body{
     margin-bottom: 0;
 }
 .formation-subject{
+    width: 100%;
+}
+.formation-subject{
     font-size: 15px;
     font-weight: normal;
+    padding: 0;
 }
 
 /*----- XP-----*/
 .XP{
     margin-bottom: 30px;
 }
+.XP-job{
+    margin: 0;
+    padding-left: 15px;
+}
 .XP-job p{
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 0;
+}
+.XP-firm{
+    margin: 0;
+    padding-left: 15px;
 }
 .XP-firm p{
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 0;
 }
+.XP-date{
+    margin: 0;
+    padding-left: 15px;
+}
 .XP-date p{
     font-size: 12px;
     font-weight: normal;
     margin-bottom: 0;
 }
+.XP-mission{
+    margin: 0;
+    padding-left: 15px;
+}
 .XP-mission p{
     font-size: 12px;
     font-weight: 700;
     margin-bottom: 0;
+}
+
+/* ---------- RESOINSIVE STYLE ---------- */
+
+@media (max-width: 767px) {
+    .about-me-large{
+        display: none;
+    }
+    .about-me-txt{
+        margin-top: 20px;
+        border-left: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .about-me-large{
+        display: none;
+    }
+    .about-me-txt{
+        margin-top: 20px;
+        border-left: none;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .about-me-large{
+        display: none;
+    }
+    .about-me-txt{
+        margin-top: 20px;
+        border-left: none;
+    }
+}
+@media (min-width: 1200px) {
+    .about-me-small{
+        display: none;
+    }
+
 }
