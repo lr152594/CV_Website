@@ -131,7 +131,7 @@ html, body{
 }
 
 /*----- FORMATION -----*/
-.formation{
+.formation-content{
     margin-bottom: 30px;
 }
 .formation-name{
@@ -180,7 +180,7 @@ html, body{
 }
 
 /*----- XP-----*/
-.XP{
+.XP-content{
     margin-bottom: 30px;
 }
 .XP-job{
@@ -226,6 +226,24 @@ html, body{
 }
 .skills li{
     list-style: none;
+}
+
+.o-skills ul{
+    padding: 0;
+}
+.o-skills li{
+    margin-bottom: 5px;
+}
+.o-skills-left-col{
+    padding: 0;
+    margin-right: 10px;
+}
+.o-skills-mid-col{
+    padding: 0;
+    margin-right: 10px;
+}
+.o-skills-right-col{
+    padding: 0;
 }
 
 /*----- HOBBIES -----*/
