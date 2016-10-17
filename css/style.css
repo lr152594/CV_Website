@@ -240,7 +240,7 @@ html, body{
 }
 .o-skills-mid-col{
     padding: 0;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .o-skills-right-col{
     padding: 0;
@@ -262,9 +262,13 @@ html, body{
 .contact-left-col{
     border-right: 1px dashed #000;
 }
+.contact ul{
+    padding:0;
+}
 .contact li{
     list-style: none;
     vertical-align: middle;
+    margin-bottom: 5px;
 }
 .contact a:hover{
     text-decoration: none;
@@ -272,10 +276,25 @@ html, body{
 }
 .contact i{
     color: black;
+    font-size: 1.5em;
+}
+.contact-icon-col{
+    padding: 0;
+    margin-right: 10px;
+}
+.contact-icon-col li{
+    text-align: center;
+}
+.contact-info-col{
+    font-size: 17px;
+    padding: 0;
 }
 .contact-txt{
     color: black;
     vertical-align: middle;
+}
+.contact-right-col .contact-icon-col{
+    padding-top: 4px;
 }
 
 
