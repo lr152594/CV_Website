@@ -228,6 +228,40 @@ html, body{
     list-style: none;
 }
 
+/*----- HOBBIES -----*/
+.hobbies ul{
+    padding: 0;
+}
+.hobbies li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.hobbies-icon{
+    font-size: 2em;
+}
+
+/*----- CONTACT -----*/
+.contact-left-col{
+    border-right: 1px dashed #000;
+}
+.contact li{
+    list-style: none;
+    vertical-align: middle;
+}
+.contact a:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact i{
+    color: black;
+}
+.contact-txt{
+    color: black;
+    vertical-align: middle;
+}
+
+
+
 /* ---------- RESPONSIVE STYLE ---------- */
 
 @media (max-width: 767px) {
@@ -244,6 +278,12 @@ html, body{
     .skills-left-col{
         border-right : none;
     }
+    .hobbies-left-col{
+        border-right : none;
+    }
+    .contact-left-col{
+        border-right: none;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .about-me-large{
@@ -258,6 +298,12 @@ html, body{
     }
     .skills-left-col{
         border-right : none;
+    }
+    .hobbies-left-col{
+        border-right : none;
+    }
+    .contact-left-col{
+        border-right: none;
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -274,9 +320,18 @@ html, body{
     .skills-left-col{
         border-right : none;
     }
+    .hobbies-left-col{
+        border-right : none;
+    }
+    .contact-left-col{
+        border-right: none;
+    }
 }
 @media (min-width: 1200px) {
     .about-me-small{
         display: none;
+    }
+    .other-skills{
+        padding-top: 20PX;
     }
 }
