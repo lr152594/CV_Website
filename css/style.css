@@ -390,6 +390,11 @@ html, body{
     .about-me-txt p{
         margin-bottom: 30px;
     }
+
+    .formation-content{
+        font-size: 1.5em;
+    }
+    
     .sub{
         display: none;
     }
