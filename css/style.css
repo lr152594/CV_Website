@@ -345,7 +345,6 @@ html, body{
         font-size:   75px;
         color:       black;
         text-align:  center;
-
     }
     .job{
         font-family: 'Oswald', sans-serif;
@@ -389,11 +388,6 @@ html, body{
     }
     .about-me-txt p{
         margin-bottom: 30px;
-    }
-
-    .formation-content{
-        color: red;
-        font-size: 1.5em;
     }
 
     .sub{
