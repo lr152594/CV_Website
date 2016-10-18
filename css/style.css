@@ -139,36 +139,36 @@ html, body{
 }
 .formation-name{
     margin:0;
-    padding-left: 15px;
+    padding-left: 5px;
 }
-.formation-name p{
+.formation-name span{
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 0;
 }
 .formation-school{
     margin:0;
-    padding-left: 15px;
+    padding-left: 5px;
 }
-.formation-school p{
+.formation-school span{
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 0;
 }
 .formation-date{
     margin:0;
-    padding-left: 15px;
+    padding-left: 5px;
 }
-.formation-date p{
+.formation-date span{
     font-size: 12px;
     font-weight: normal;
     margin-bottom: 0;
 }
 .formation-spec{
     margin:0;
-    padding-left: 15px;
+    padding-left: 5px;
 }
-.formation-spec p{
+.formation-spec span{
     font-size: 12px;
     font-weight: 700;
     margin-bottom: 0;
@@ -188,36 +188,36 @@ html, body{
 }
 .XP-job{
     margin: 0;
-    padding-left: 15px;
+    padding-left: 5px;
 }
-.XP-job p{
+.XP-job span{
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 0;
 }
 .XP-firm{
     margin: 0;
-    padding-left: 15px;
+    padding-left: 5px;
 }
-.XP-firm p{
+.XP-firm span{
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 0;
 }
 .XP-date{
     margin: 0;
-    padding-left: 15px;
+    padding-left: 5px;
 }
-.XP-date p{
+.XP-date span{
     font-size: 12px;
     font-weight: normal;
     margin-bottom: 0;
 }
 .XP-mission{
     margin: 0;
-    padding-left: 15px;
+    padding-left: 5px;
 }
-.XP-mission p{
+.XP-mission span{
     font-size: 12px;
     font-weight: 700;
     margin-bottom: 0;
@@ -396,8 +396,8 @@ html, body{
         margin-bottom: 30px;
     }
 
-    .formation-name p, .formation-school p, .formation-date p, .formation-spec p,
-    .XP-job p, .XP-firm p, .XP-date p, .XP-mission p{
+    .formation-name span, .formation-school span, .formation-date span, .formation-spec span,
+    .XP-job span, .XP-firm span, .XP-date span, .XP-mission span{
         font-size: 2.5em;
     }
     .formation-date, .XP-date {
