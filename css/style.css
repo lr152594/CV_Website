@@ -311,6 +311,9 @@ html, body{
         height: auto;
         vertical-align: middle;
     }
+    .sub{
+        display: none;
+    }
 
     .about-me-large{
         display: none;
@@ -319,9 +322,8 @@ html, body{
         margin-top: 20px;
         border-left: none;
     }
-    .sub{
-        display: none;
-    }
+
+
     .skills-left-col{
         border-right : none;
     }
@@ -378,6 +380,10 @@ html, body{
         font-size :  50px;
     }
 
+    .sub{
+        display: none;
+    }
+
     .about-me-large{
         display: none;
     }
@@ -390,9 +396,11 @@ html, body{
         margin-bottom: 30px;
     }
 
-    .sub{
-        display: none;
+    .formation-name p, .formation-school p, .formation-date p, .formation-spec p,
+    .XP-job p, .XP-firm p, .XP-date p, .XP-mission p{
+        font-size: 2em;
     }
+
     .skills-left-col{
         border-right : none;
     }
