@@ -383,8 +383,7 @@ html, body{
         display: none;
     }
     .about-me-txt{
-        color: greenyellow;
-        font-size: 1.5em;
+        font-size: 1.25em;
         margin-top: 30px;
         border-left: none;
     }
