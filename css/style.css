@@ -398,9 +398,12 @@ html, body{
 
     .formation-name p, .formation-school p, .formation-date p, .formation-spec p,
     .XP-job p, .XP-firm p, .XP-date p, .XP-mission p{
-        font-size: 2em;
+        font-size: 2.5em;
     }
-
+    .formation-date, .XP-date {
+        padding-right: 5px;
+    }
+    
     .skills-left-col{
         border-right : none;
     }
