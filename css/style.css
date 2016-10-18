@@ -302,6 +302,13 @@ html, body{
 /* ---------- RESPONSIVE STYLE ---------- */
 
 @media (max-width: 767px) {
+    /*----- MAIN -----*/
+    .PI_hexa img{
+        width:  500px;
+        height: auto;
+        vertical-align: middle;
+    }
+
     .about-me-large{
         display: none;
     }
@@ -323,6 +330,46 @@ html, body{
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+    /*----- MAIN -----*/
+    .PI_hexa img{
+        width:  450px;
+        height: auto;
+        vertical-align: middle;
+    }
+    .name{
+        font-family: 'Kavivanar', cursive;
+        font-weight: 900;
+        font-size:   75px;
+        color:       black;
+        text-align:  center;
+
+    }
+    .job{
+        font-family: 'Oswald', sans-serif;
+        font-size :  40px;
+        color:       black;
+        text-align:  center;
+    }
+
+    .main-social-icon{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .main-social-icon i{
+        font-size: 6em;
+        color:  black;
+        margin: 0 35px;
+    }
+
+    .main-message h6{
+        display: none;
+    }
+
+    .content{
+        display: block;
+    }
+
+
     .about-me-large{
         display: none;
     }
@@ -344,6 +391,13 @@ html, body{
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+    /*----- MAIN -----*/
+    .PI_hexa img{
+        width:  500px;
+        height: auto;
+        vertical-align: middle;
+    }
+
     .about-me-large{
         display: none;
     }
