@@ -392,9 +392,10 @@ html, body{
     }
 
     .formation-content{
+        color: red;
         font-size: 1.5em;
     }
-    
+
     .sub{
         display: none;
     }
