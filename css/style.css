@@ -401,7 +401,7 @@ html, body{
         border-left: none;
     }
     .about-me-txt p{
-        margin-bottom: 30px;
+        margin-bottom: 2.5em;
     }
 
     .formation-name span, .formation-school span, .formation-date span, .formation-spec span,
