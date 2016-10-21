@@ -425,7 +425,7 @@ html, body{
         padding: 8px 0;
     }
     .star-icon span{
-        display: none;
+        font-size: 3em;
     }
     /*
     .o-skills-mid-col{
