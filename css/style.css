@@ -415,9 +415,20 @@ html, body{
     .skills-left-col{
         border-right: none;
     }
-
     .skills-txt{
         font-size: 35px;
+    }
+    .star-icon i{
+        font-size: 35px;
+    }
+    .star-icon li{
+        padding: 7px 0;
+    }/*
+    .star-icon ul{
+        margin-bottom: 25px;
+    }*/
+    .star-icon span{
+        display: none;
     }
     /*
     .o-skills-mid-col{
