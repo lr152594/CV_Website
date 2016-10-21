@@ -396,12 +396,12 @@ html, body{
         display: none;
     }
     .about-me-txt{
-        font-size: 1.25em;
+        font-size: 1em;
         margin-top: 30px;
         border-left: none;
     }
     .about-me-txt p{
-        margin-bottom: 2.5em;
+        margin-bottom: 30px;
     }
 
     .formation-name span, .formation-school span, .formation-date span, .formation-spec span,
