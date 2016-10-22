@@ -369,6 +369,7 @@ html, body{
         border-left: none;
     }
 
+
     /*----- FORMATION & XP -----*/
     .formation-name span, .formation-school span, .formation-date span, .formation-spec span,
     .XP-job span, .XP-firm span, .XP-date span, .XP-mission span{
@@ -378,6 +379,7 @@ html, body{
         font-size: 0.85em;
         transform: translateY(-4px);
     }
+
 
     /*----- SKILLS -----*/
     .skills-star i{
@@ -393,14 +395,22 @@ html, body{
         padding-left: 0;
     }
 
+
     /*----- HOBBIES -----*/
     .hobbies-left-col{
         border-right : none;
     }
+    .hobbies li{
+        font-size: 0.84em;
+    }
+
 
     /*----- CONTACT -----*/
     .contact-left-col{
         border-right: none;
+    }
+    .contact-info-col{
+        font-size: 1.08em;
     }
 }
 
