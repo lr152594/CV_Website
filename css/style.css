@@ -386,6 +386,12 @@ html, body{
     .skills-left-col{
         border-right : none;
     }
+    .graphic-skills, .o-skills{
+        margin-top: 20px;
+    }
+    .graphic-skills .star-icon ul{
+        padding-left: 0;
+    }
 
     /*----- HOBBIES -----*/
     .hobbies-left-col{
