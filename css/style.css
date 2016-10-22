@@ -363,26 +363,36 @@ html, body{
     /*----- ABOUT ME ----- */
     .about-me-large{
         display: none;
-    }/*
+    }
     .about-me-txt{
         margin-top: 20px;
         border-left: none;
-    }*/
+    }
 
+    /*----- FORMATION & XP -----*/
     .formation-name span, .formation-school span, .formation-date span, .formation-spec span,
     .XP-job span, .XP-firm span, .XP-date span, .XP-mission span{
-        font-size: 2em;
+        font-size: 0.85em;
     }
+    .formation-date i, .XP-date i{
+        font-size: 0.85em;
+        transform: translateY(-4px);
+    }
+
+    /*----- SKILLS -----*/
     .skills-star i{
         font-size: 15em;
     }
-
     .skills-left-col{
         border-right : none;
     }
+
+    /*----- HOBBIES -----*/
     .hobbies-left-col{
         border-right : none;
     }
+
+    /*----- CONTACT -----*/
     .contact-left-col{
         border-right: none;
     }
