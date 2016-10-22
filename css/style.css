@@ -314,8 +314,6 @@ html, body{
     /*----- MAIN -----*/
     .PI_hexa img{
         width:  300px;
-        height: auto;
-        vertical-align: middle;
         margin-bottom:  20px;
     }
     .name{
@@ -418,105 +416,108 @@ html, body{
 /* ---------- TABLET ----------*/
 
 @media (min-width: 768px) and (max-width: 991px) {
+
     /*----- MAIN -----*/
     .PI_hexa img{
-        width:  450px;
-        height: auto;
-        vertical-align: middle;
+        width:  350px;
+        margin-bottom: 20px;
     }
     .name{
-        font-family: 'Kavivanar', cursive;
-        font-weight: 900;
-        font-size:   75px;
-        color:       black;
-        text-align:  center;
+        font-size:   60px;
     }
     .job{
-        font-family: 'Oswald', sans-serif;
         font-size :  40px;
-        color:       black;
-        text-align:  center;
     }
-
     .main-social-icon{
         margin-top: 25px;
         margin-bottom: 25px;
     }
     .main-social-icon i{
-        font-size: 6em;
+        font-size: 5em;
         color:  black;
         margin: 0 35px;
     }
-
     .main-message h6{
         display: none;
     }
 
+
+    /*----- CONTENT -----*/
     .content{
         display: block;
     }
+    .framework{
+        font-size: 34px;
+        margin-bottom: 40px;
+    }
     .title{
-        font-size :  70px;
+        font-size: 55px;
         margin-bottom: 0;
     }
-
-    .subtitle{
-        font-size :  50px;
-    }
-
     .sub{
         display: none;
+        margin-top: 20px;
+        padding : 0 25px;
+    }
+    .subtitle{
+        font-size: 40px;
     }
 
+
+    /*----- ABOUT ME ----- */
     .about-me-large{
         display: none;
     }
     .about-me-txt{
-        font-size: 1em;
-        margin-top: 30px;
+        margin-top: 20px;
         border-left: none;
     }
-    .about-me-txt p{
-        margin-bottom: 30px;
-    }
 
+
+    /*----- FORMATION & XP -----*/
     .formation-name span, .formation-school span, .formation-date span, .formation-spec span,
     .XP-job span, .XP-firm span, .XP-date span, .XP-mission span{
-        font-size: 2.5em;
+        font-size: 0.8em;
     }
-    .formation-date, .XP-date {
-        padding-left: 5px;
+    .formation-date i, .XP-date i{
+        font-size: 0.85em;
+        transform: translateY(-4px);
     }
 
+
+    /*----- SKILLS -----*/
+    .skills-star i{
+        font-size: 15em;
+    }
     .skills-left-col{
-        border-right: none;
+        border-right : none;
     }
-    .skills-txt{
-        font-size: 35px;
+    .graphic-skills, .o-skills{
+        margin-top: 20px;
     }
-    .star-icon i{
-        font-size: 35px;
+    .graphic-skills .star-icon ul{
+        padding-left: 0;
     }
-    .star-icon li{
-        padding: 8px 0;
-    }
-    .star-icon span{
-        font-size: 1px;
-        margin:-50px;
-    }
-    /*
-    .o-skills-mid-col{
-        font-size: 35px;
-    }
-    .o-skills-right-col{
-        font-size: 35px;
-    }*/
 
+
+    /*----- HOBBIES -----*/
     .hobbies-left-col{
         border-right : none;
     }
+    .hobbies li{
+        font-size: 0.76em;
+    }
+
+
+    /*----- CONTACT -----*/
     .contact-left-col{
         border-right: none;
+    }
+    .contact-info-col{
+        font-size: 1.03em;
+    }
+    .contact li{
+        margin-bottom: 10px;
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
