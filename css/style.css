@@ -28,6 +28,7 @@ html, body{
 	z-index: 2;
 }
 
+
 /*----- MAIN -----*/
 .main{
     height: 100vh;
@@ -88,6 +89,26 @@ html, body{
     color:          white;
     vertical-align: bottom;
     text-align:     center;
+}
+
+.show-menu{
+    display: none;
+    position: fixed;
+    z-index: 1000000000;
+    margin-top: 10px;
+    transform: translateX(82vw);
+}
+.menu{
+    width: 40px;
+    text-align: right;
+    margin-right: 50px;
+    margin-left: 50px;
+    z-index: 1000000000;
+    position: fixed;
+}
+.menu:hover{
+    width:45px;
+    cursor: pointer;
 }
 
 /*---------- CONTENT ----------*/
