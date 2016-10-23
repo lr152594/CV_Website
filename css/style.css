@@ -453,6 +453,12 @@
     .main-message h6{
         display: none;
     }
+    .show-menu{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
 
     /*----- CONTENT -----*/
     .content{
