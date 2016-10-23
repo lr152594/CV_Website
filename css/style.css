@@ -13,7 +13,9 @@ html, body{
 .bg-color{
     width:  100%;
     margin: 0;
-	background-image:  url(../img/bg_color.jpg);
+    background-color: rgb(52, 152, 219);
+    /*
+	background-image:  url(../img/bg_color.jpg);*/
     background-repeat: repeat;
 	z-index: 1;
 }
@@ -91,35 +93,41 @@ html, body{
 /*---------- CONTENT ----------*/
 .content{
     width:   100%;
-    padding: 0;
-    margin:  0;/*
+    padding: 100px 0 0 0;
+    margin:  0;
+    box-shadow: 0px -2px 10px rgba(33, 33, 33, 0.7);
+    background-color: #fbfbfb;
+    /*
     background-color : rgba(255, 255, 255, 0.1);*/
     display: none;
 }
-.framework{
-    font-family: 'Lato', sans-serif;
-    font-size:   15px;
-    background-color: rgba(255, 255, 255, 0.6);
-    box-shadow: 1px 1px 8px #000000;
-    color: black;
+.framework{/*
+    font-family: 'Lato', sans-serif;*/
+    font-family: 'PT Sans', sans-serif;
+    font-size:   15px;/*
+    background-color: rgba(255, 255, 255, 0.6);/*
+    box-shadow: 1px 1px 8px #000000;*/
+    color: #1b1b1b;
     width: 100%;
     padding: 10px 0 10px 0;
     margin : 0 0 100px 0;
 }
-.title{
-    font-family: 'Signika', sans-serif;
-    font-size :  40px;
-    font-weight: normal;
-    color: black;/*
+.title{/*
+    font-family: 'Signika', sans-serif;*/
+    font-family: 'Ubuntu', sans-serif;
+    font-size :  60px;
+    font-weight: 500;
+    color: #292929;/*
     background-color : rgba(0, 0, 0, 1);*/
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 25px;
     /*
     text-transform: uppercase;*/
 }
 
-.subtitle{
-    font-family: 'Signika', sans-serif;
+.subtitle{/*
+    font-family: 'Signika', sans-serif;*/
+    font-family: 'Ubuntu', sans-serif;
     font-size :  25px;
     font-weight: normal;
     color: black;/*
@@ -521,13 +529,47 @@ html, body{
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+
     /*----- MAIN -----*/
     .PI_hexa img{
-        width:  500px;
-        height: auto;
-        vertical-align: middle;
+        width: 250px;
+        margin-bottom: 10px;
+    }
+    .name{
+        font-size: 45px;
+    }
+    .job{
+        font-size: 20px;
+    }
+    .main-social-icon{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .main-social-icon i{
+        font-size: 2.5em;
+        margin: 0 15px;
     }
 
+
+    /*----- CONTENT -----*/
+    .framework{
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    .title{
+        font-size: 45px;
+        margin-bottom: 0;
+    }
+    .sub{
+        margin-top: 20px;
+        padding : 0 25px;
+    }
+    .subtitle{
+        font-size: 35px;
+    }
+
+
+    /*----- ABOUT ME ----- */
     .about-me-large{
         display: none;
     }
@@ -535,17 +577,49 @@ html, body{
         margin-top: 20px;
         border-left: none;
     }
-    .sub{
-        display: none;
+
+
+    /*----- FORMATION & XP -----*/
+    .formation-name span, .formation-school span, .formation-date span, .formation-spec span,
+    .XP-job span, .XP-firm span, .XP-date span, .XP-mission span{
+        font-size: 0.85em;
+    }
+    .formation-date i, .XP-date i{
+        font-size: 0.85em;
+        transform: translateY(-4px);
+    }
+
+
+    /*----- SKILLS -----*/
+    .skills-star i{
+        font-size: 15em;
     }
     .skills-left-col{
         border-right : none;
     }
+    .graphic-skills, .o-skills{
+        margin-top: 20px;
+    }
+    .graphic-skills .star-icon ul{
+        padding-left: 0;
+    }
+
+
+    /*----- HOBBIES -----*/
     .hobbies-left-col{
         border-right : none;
     }
+    .hobbies li{
+        font-size: 0.84em;
+    }
+
+
+    /*----- CONTACT -----*/
     .contact-left-col{
         border-right: none;
+    }
+    .contact-info-col{
+        font-size: 1.08em;
     }
 }
 @media (min-width: 1200px) {

@@ -8,6 +8,8 @@ $(function() {
 		//$('.topbar').fadeIn(200);
 		$('.main-message').hide();
 		$('.content').fadeIn(200);
+        $('.show-menu').fadeIn(200);
+
 	});
 
     $('.about-me-small .title').click(function () {
@@ -86,6 +88,11 @@ $(function() {
                 $('.contact .sub').slideUp("none");
             }
         }
+    });
+
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
     });
 
 });									

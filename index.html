@@ -6,6 +6,7 @@
 		<title>Lucas Randria - Mon CV</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/sidebar.css" rel="stylesheet">
         <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" >
         <link href="css/flag-icon/css/flag-icon.min.css" rel="stylesheet" >
         <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
@@ -14,18 +15,54 @@
         <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:500,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
 	</head>
 
 	<body>
+
+    <div id="wrapper" class="toggled">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Menu
+                    </a>
+                </li>
+                <li>
+                    <a href="#about-me-large">Qui suis-je ?</a>
+                </li>
+                <li>
+                    <a href="#formation">Formation</a>
+                </li>
+                <li>
+                    <a href="#XP">Expériences Professionnelles</a>
+                </li>
+                <li>
+                    <a href="#skills">Compétences</a>
+                </li>
+                <li>
+                    <a href="#hobbies">Hobbies</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+
+
         <div class="container">
             <div class="row bg-color">
                 <div class="row bg-pattern">
 
                     <!-- Page présentation -->
                     <div class="row main">
-                        <div class="col-lg-8 col-xs-12 col-sm-12 col-lg-offset-2 main-col">
+                        <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-1 main-col">
                             <div class="row PI_hexa">
                                 <img src="img/PI_hexa_3.png" alt="ID Picture" class="PI_hexa_click">
                             </div>
@@ -46,14 +83,21 @@
                             </div>
 
                         </div>
+                        <div class="show-menu" style="display: none; position: fixed; z-index: 1000000000; margin-top: 15px; transform: translateX(82vw);">
+                            <a href="#menu-toggle" class="btn btn-default" id="menu-toggle" style="text-align: right; margin-right: 50px; margin-left: 25px; z-index: 1000000000; position: fixed;">Toggle Menu</a>
+                        </div>
                      </div>
+                </div>
+            </div>
 
+            <div id="page-content-wrapper">
                     <!-- Contenu -->
                     <div class="row content">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
+
+                        <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-1">
 
                             <!-- A PROPOS -->
-                            <div class="row framework about-me-large">
+                            <div class="row framework about-me-large" id="about-me-large">
                                 <p class="title"> Qui suis-je ? </p>
                                 <div class="sub">
                                     <div class="col-lg-2">
@@ -93,7 +137,7 @@
                             </div>
 
                             <!-- FORMATION -->
-                            <div class="row framework formation">
+                            <div class="row framework formation" id="formation">
                                 <p class="title"> Formation </p>
                                 <div class="sub">
                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 col-lg-offset-3">
@@ -165,7 +209,7 @@
                             </div>
 
                             <!-- EXPÉRIENCES PROFESSIONNELLES -->
-                            <div class="row framework XP">
+                            <div class="row framework XP" id="XP">
                                 <p class="title"> Expériences Professionnelles </p>
                                 <div class="sub">
                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 col-lg-offset-3">
@@ -245,7 +289,7 @@
                             </div>
 
                             <!-- COMPÉTENCES -->
-                            <div class="row framework skills">
+                            <div class="row framework skills" id="skills">
                                 <p class="title"> Compétences </p>
                                 <div class="sub">
                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 skills-left-col">
@@ -508,7 +552,7 @@
                             </div>
 
                             <!-- HOBBIES -->
-                            <div class="row framework hobbies">
+                            <div class="row framework hobbies" id="hobbies">
                                 <p class="title"> Hobbies </p>
                                 <div class="sub">
                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 hobbies-left-col">
@@ -557,7 +601,7 @@
                             </div>
 
                             <!-- CONTACT -->
-                            <div class="row framework contact">
+                            <div class="row framework contact" id="contact">
                                 <p class="title"> Contact </p>
                                 <div class="sub">
                                     <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 col-lg-offset-1 contact-left-col">
@@ -627,6 +671,7 @@
                                         </div>
 
 
+
                                         <!-- OLD
                                         <ul>
                                             <li>
@@ -646,12 +691,12 @@
                             </div>
 
                          </div>
+
                     </div>
 
-
-                </div>
-            </div>
         </div>
+        </div>
+    </div>
 	</body>
 
 </html>
